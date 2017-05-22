@@ -1,14 +1,19 @@
 @import 'colors';
 
+.nav-wrapper {
+  position: fixed;
+  width: 100%;
+}
+
 .nav-bar {
   align-content: center;
-  background-color: $dark-purple;
-  box-shadow: 0 2px 5px 0 $overlay;
+  background-color: $transparent;
   display: flex;
   height: 60px;
   justify-content: space-between;
   margin: 0;
   position: relative;
+  transition: .4s ease-in;
 
   h1 {
     color: $white;
@@ -28,6 +33,11 @@
     &:hover {
       color: darken($red-medium, 10%);
     }
+  }
+
+  &.nav-bg {
+    background-color: $dark-purple;
+    box-shadow: 0 2px 5px 0 $overlay;
   }
 }
 
