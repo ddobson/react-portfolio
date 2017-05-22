@@ -1,16 +1,24 @@
 import React, { Component } from 'react';
+
+// Components
+import Header from './Header';
+import About from './About';
+import SkillContainer from './SkillContainer';
+import ProjectContainer from './ProjectContainer';
+import Contact from './Contact';
+
+// Stlyes
 import '../styles/App.scss';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Header/>
+        <About/>
+        <SkillContainer/>
+        <ProjectContainer/>
+        <Contact/>
       </div>
     );
   }
