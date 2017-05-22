@@ -1,0 +1,103 @@
+@import 'colors';
+
+.nav-bar {
+  align-content: center;
+  background-color: $dark-purple;
+  box-shadow: 0 2px 5px 0 $overlay;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  margin: 0;
+  position: relative;
+
+  h1 {
+    color: $white;
+    font-size: 40px;
+    font-weight: 800;
+    height: 52px;
+    margin: 0;
+    padding: 4px 24px;
+    text-align: left;
+  }
+
+  a {
+    color: $red-medium;
+    padding: 20px 0;
+    text-decoration: none;
+
+    &:hover {
+      color: darken($red-medium, 10%);
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .nav-bar {
+    justify-content: center;
+  }
+}
+
+// DESKTOP MENU
+.desktop-menu {
+  text-align: right;
+
+  ul {
+    margin: 0 12px;
+
+    li {
+      display: inline-block;
+      list-style: none;
+      padding: 22px 12px;
+    }
+  }
+
+  a {
+    color: $white;
+    font-size: 16px;
+    transition: .3s ease-in;
+
+    &:hover {
+      color: $red-medium;
+    }
+  }
+}
+
+// BURGER MENU
+
+// Position and sizing of burger button
+.bm-burger-button {
+  height: 30px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 36px;
+}
+
+// Color/shape of burger icon bars
+.bm-burger-bars {
+  background: $white;
+  transition: .5s ease-in;
+}
+
+// Position and sizing of clickable cross button
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+// Color of close button cross
+.bm-cross {
+  background: $dark-purple;
+}
+
+// General sidebar styles
+.bm-menu {
+  background: $white;
+  font-size: 1.15em;
+  padding-top: 2.7em;
+}
+
+// Styling of overlay
+.bm-overlay {
+  background: $overlay;
+}
