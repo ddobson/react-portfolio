@@ -6,7 +6,7 @@
 }
 
 .nav-bar {
-  align-content: center;
+  align-items: center;
   background-color: $transparent;
   display: flex;
   height: 60px;
@@ -101,6 +101,10 @@
 }
 
 // General sidebar styles
+.burger-wrap {
+  align-self: flex-start;
+}
+
 .bm-menu {
   background: $white;
   font-size: 1.15em;
