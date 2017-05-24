@@ -7,9 +7,6 @@ import SkillContainer from './SkillContainer';
 import ProjectContainer from './ProjectContainer';
 import Contact from './Contact';
 
-// Stlyes
-import '../styles/App.scss';
-
 class App extends Component {
   render() {
     return (
