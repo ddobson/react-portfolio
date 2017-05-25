@@ -1,0 +1,60 @@
+@import 'colors';
+
+.about {
+  padding: 30px;
+}
+
+.about-row {
+  max-width: 1170px;
+}
+
+.img-wrap {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  img {
+    display: block;
+    height: auto;
+    max-width: 450px;
+    width: 100%;
+  }
+}
+
+.about-info {
+  padding: 0 15px;
+
+  h1 {
+    font-size: 52px;
+    margin: 20px 0 10px;
+    text-align: center;
+  }
+
+  p {
+    line-height: 1.7em;
+    margin: 16px;
+    text-align: left;
+  }
+
+  hr {
+    border: 0;
+    border-bottom: 1px solid $red-bright;
+    border-top: 1px solid $red-bright;
+    height: 2px;
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 450px) {
+  .about-info {
+    h1 {
+      font-size: 40px;
+    }
+
+    p {
+      margin: 16px 0;
+    }
+  }
+}

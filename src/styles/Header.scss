@@ -11,6 +11,7 @@ h1 {
   background-size: cover;
   color: $white;
   height: 100vh;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -38,6 +39,7 @@ h1 {
     border-top: 2px solid $red-medium;
     height: 2px;
     width: 25%;
+    max-width: 200px
   }
 
   span {
