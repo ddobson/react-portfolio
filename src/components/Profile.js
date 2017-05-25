@@ -3,6 +3,8 @@ import { Row, Col } from 'react-flexbox-grid';
 
 import ProfilePhoto from '../images/dale-about.jpg';
 
+import data from '../data';
+
 const Profile = () => {
   return (
     <Row>
@@ -17,8 +19,8 @@ const Profile = () => {
             <div className="about-info">
               <h1>Hi, I'm Dale</h1>
               <hr/>
-              <p>I'm a web developer based in Southern New England. Software development combines my passion for technology with creative freedom and constant personal growth.</p>
-              <p>As a former Quality Engineer at Teespring, I understand what it means to deliver a product and support it in production. As I move into a full-time development role my goal is to take that experience to the next level, building awesome applications that put quality first.</p>
+              <p>{ data.profileText1 }</p>
+              <p>{ data.profileText2 }</p>
             </div>
           </Col>
         </Row>
