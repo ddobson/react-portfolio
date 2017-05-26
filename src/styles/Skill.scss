@@ -1,0 +1,34 @@
+@import 'colors';
+
+.skill-intro {
+  text-align: center;
+}
+
+.skill-wrap {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.icon-wrap {
+  width: 100px;
+}
+
+.icon-sprite {
+  display: block;
+  font-size: 4em;
+  margin: 0 auto 10px;
+
+  &:hover {
+    color: $red-wine;
+  }
+}
+
+span {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
