@@ -8,7 +8,7 @@ const Skill = (props) => {
     <Col xs={6} sm={3}>
       <div className="skill-wrap">
         <div className="icon-wrap">
-          <i className={`icon-sprite icon-${props.skill.cssClassName}`}></i>
+          <i className={`icon devicon-${props.skill.cssClassName}-plain`}></i>
         </div>
         <span>{props.skill.name}</span>
       </div>

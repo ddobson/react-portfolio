@@ -4,13 +4,13 @@ const data = {
   skills: [
     [
       { name: 'JavaScript', cssClassName: 'javascript' },
-      { name: 'React', cssClassName: 'reactjs' },
+      { name: 'React', cssClassName: 'react' },
       { name: 'Ruby', cssClassName: 'ruby' },
       { name: 'Node', cssClassName: 'nodejs' }
     ],
     [
-      { name: 'Rails', cssClassName: 'ruby-on-rails' },
-      { name: 'Postgres', cssClassName: 'postgres' },
+      { name: 'Rails', cssClassName: 'rails' },
+      { name: 'Postgres', cssClassName: 'postgresql' },
       { name: 'MongoDB', cssClassName: 'mongodb' },
       { name: 'Git', cssClassName: 'git' }
     ],
