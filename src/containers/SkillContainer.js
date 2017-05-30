@@ -25,7 +25,7 @@ const SkillContainer = () => {
           </div>
         </Col>
       </Row>
-      <Row>
+      <Row className="icon-row-wrap">
         <Col xs={12}>
           { content }
         </Col>

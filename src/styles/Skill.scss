@@ -1,7 +1,30 @@
 @import 'colors';
 
-.skill-intro {
+h1 {
+  font-size: 52px;
+  margin: 20px 0 10px;
   text-align: center;
+}
+
+hr {
+  border: 0;
+  border-bottom: 1px solid $red-bright;
+  border-top: 1px solid $red-bright;
+  height: 2px;
+  max-width: 200px;
+}
+
+.skill-container {
+  background-color: $lt-gray;
+}
+
+.skill-intro {
+  margin: 50px;
+  text-align: center;
+}
+
+.icon-row-wrap {
+  padding-bottom: 40px;
 }
 
 .skill-wrap {
@@ -18,9 +41,9 @@
   width: 100px;
 }
 
-.icon-sprite {
+.icon {
   display: block;
-  font-size: 4em;
+  font-size: 4.5em;
   margin: 0 auto 10px;
 
   &:hover {
@@ -29,6 +52,5 @@
 }
 
 span {
-  font-family: 'Raleway', sans-serif;
   font-size: 18px;
 }
