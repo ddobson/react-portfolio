@@ -20,6 +20,10 @@ module.exports = {
         "no-console": 1,
         "prefer-const": 2,
         "prefer-arrow-callback": 1,
+        "semi": [
+            "error",
+            "always"
+        ],
         "indent": [
             "error",
             2
